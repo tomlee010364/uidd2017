@@ -1,3 +1,12 @@
 body{
-  background-image:url(https://free.com.tw/blog/wp-content/uploads/2014/08/Placekitten480-g.jpg);
+  background-image:url(https://lh4.googleusercontent.com/ZlKpi9rNQ2fF8a9jhFkoFmd6Wr0m20BwkIC7E2mv6Pw7gjuV28xhloCMtYLKADi7IGH-kaN14UUX2-U=w1920-h947),
+                   url(https://lh5.googleusercontent.com/cp3tRrCAD_cYoXvjWKPaFuhgkNw5aJEB28Q6M_-P5Nj2ne5zM01r_hA_8Wj53edOhKPGY5shUMFgBiI=w1920-h887-rw);
+  background-position:100px 30px,
+                      0px 100px;
+  background-repeat:no-repeat,
+                    no-repeat;
+  background-size:137px 47px,
+                  1536.4px 747.2px;
+  background-attachment:fixed,
+                        fixed;
 }
