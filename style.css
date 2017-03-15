@@ -3,8 +3,9 @@
   background-position:0px 100px;
   background-repeat:no-repeat;
   background-size:100%;
-  width:1500px;
+  width:1530px;
   height:800px;
+  margin-left:-10px;
 }
 
 #about{
@@ -12,8 +13,9 @@
   background-position:0px 0px;
   background-repeat:no-repeat;
   background-size:100%;
-  width:1500px;
+  width:1530px;
   height:840px;
+  margin-left:-10px;
 }
 
 #news{
@@ -21,8 +23,9 @@
   background-position:0px 0px;
   background-repeat:no-repeat;
   background-size:100%;
-  width:1500px;
+  width:1530px;
   height:840px;
+  margin-left:-10px;
 }
 
 #contact{
@@ -30,8 +33,9 @@
   background-position:0px 0px;
   background-repeat:no-repeat;
   background-size:100%;
-  width:1500px;
+  width:1530px;
   height:840px;
+  margin-left:-10px;
 }
 #twitter{
   position:absolute;
@@ -107,8 +111,9 @@
   background-position:0px 0px;
   background-repeat:no-repeat;
   background-size:100%;
-  width:1500px;
+  width:1530px;
   height:840px;
+  margin-left:-10px;
 }
 #analysis{
   position:absolute;
