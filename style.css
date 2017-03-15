@@ -117,31 +117,31 @@
 }
 #analysis{
   position:absolute;
-  top:3500px;
-  left:380px;
+  top:3550px;
+  left:440px;
 }
 #program{
   position:absolute;
-  top:3500px;
-  left:630px;
+  top:3560px;
+  left:689px;
 }
 #search{
   position:absolute;
-  top:3500px;
-  left:880px;
+  top:3560px;
+  left:946px;
 }
 #recommend{
   position:absolute;
-  top:3765px;
-  left:380px;
+  top:3827px;
+  left:440px;
 }
 #record{
   position:absolute;
-  top:3765px;
-  left:630px;
+  top:3830px;
+  left:690px;
 }
 #calculate{
   position:absolute;
-  top:3765px;
-  left:880px;
+  top:3830px;
+  left:941px;
 }
