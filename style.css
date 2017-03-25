@@ -1,11 +1,97 @@
-#home{
-  background-image:url(home.jpg);
-  background-position:0px 100px;
+body{
+  margin:0px;
+}
+
+#front{
+  background-image:url(front.jpg);
+  background-position:0px 0px;
   background-repeat:no-repeat;
   background-size:100%;
   width:1530px;
-  height:800px;
-  margin-left:-10px;
+  height:760px;
+  margin:0px auto;
+}
+#getappicon{
+  position:relative;
+  top:500px;
+  left:920px;
+}
+#loginicon{
+  position:relative;
+  top:497px;
+  left:920px; 
+}
+
+#loginpage{
+  background-image:url(loginpage.jpg);
+  background-position:0px 0px;
+  background-repeat:no-repeat;
+  background-size:100%;
+  width:1530px;
+  height:760px;
+  margin:0px auto;
+}
+#username{
+  position:relative;
+  top:250px;
+  left:550px;
+  width:420px;
+  height:85px;
+  padding-left:70px;
+  background-color:rgba(0%,0%,0%,0);
+  border:2px solid #ffffff;
+  border-radius:40px;
+  background-image:url(icon1.jpg);
+  background-repeat:no-repeat;
+  background-position:20px 25px;
+  font-size:20px;
+  margin:0px auto;
+}
+#username::-webkit-input-placeholder{
+  color:#ffffff;
+}
+#password{
+  position:relative;
+  top:370px;
+  left:55px;
+  width:420px;
+  height:85px;
+  padding-left:70px;
+  background-color:rgba(0%,0%,0%,0);
+  border:2px solid #ffffff;
+  border-radius:40px;
+  background-image:url(icon2.jpg);
+  background-repeat:no-repeat;
+  background-position:20px 15px;
+  font-size:20px;
+  margin:0px auto;
+}
+#password::-webkit-input-placeholder{
+  color:#ffffff;
+}
+#login{
+  position:relative;
+  top:500px;
+  left:-444px;
+  width:495px;
+  height:85px;
+  border:none;
+  border-radius:40px;
+  cursor:pointer;
+  background-color:#dc143c;
+  color:#ffffff;
+  font-size:25px;
+  box-shadow:0px 0px 50px rgba(20%,20%,40%,0.5);
+}
+
+#home{
+  background-image:url(home.jpg);
+  background-position:0px 0px;
+  background-repeat:no-repeat;
+  background-size:100%;
+  width:1530px;
+  height:700px;
+  margin:0px auto;
 }
 
 #about{
@@ -15,7 +101,7 @@
   background-size:100%;
   width:1530px;
   height:840px;
-  margin-left:-10px;
+  margin:0px auto;
 }
 
 #news{
@@ -25,7 +111,7 @@
   background-size:100%;
   width:1530px;
   height:840px;
-  margin-left:-10px;
+  margin:0px auto;
 }
 
 #contact{
@@ -35,21 +121,21 @@
   background-size:100%;
   width:1530px;
   height:840px;
-  margin-left:-10px;
+  margin:0px auto;
 }
 #twitter{
-  position:absolute;
-  top:2950px;
+  position:relative;
+  top:470px;
   left:200px;
 }
 #facebook{
-  position:absolute;
-  top:2948px;
-  left:300px;
+  position:relative;
+  top:465px;
+  left:220px;
 }
 #name{
-  position:absolute;
-  top:2900px;
+  position:relative;
+  top:340px;
   left:850px;
   padding-left:15px;
   padding-right:270px;
@@ -58,11 +144,14 @@
   border-radius:5px;
   background:#CFCFCF;
   border:0;
+}
+#name::-webkit-input-placeholder{
+  color:#ffffff;
 }
 #email{
-  position:absolute;
-  top:2935px;
-  left:850px;
+  position:relative;
+  top:375px;
+  left:405px;
   padding-left:15px;
   padding-right:270px;
   padding-top:5px;
@@ -70,11 +159,14 @@
   border-radius:5px;
   background:#CFCFCF;
   border:0;
+}
+#email::-webkit-input-placeholder{
+  color:#ffffff;
 }
 #subject{
-  position:absolute;
-  top:2970px;
-  left:850px;
+  position:relative;
+  top:410px;
+  left:-40px;
   padding-left:15px;
   padding-right:270px;
   padding-top:5px;
@@ -83,10 +175,13 @@
   background:#CFCFCF;
   border:0;
 }
+#subject::-webkit-input-placeholder{
+  color:#ffffff;
+}
 #message{
-  position:absolute;
-  top:3005px;
-  left:850px;
+  position:relative;
+  top:420px;
+  left:852px;
   padding-left:15px;
   padding-right:270px;
   padding-top:5px;
@@ -95,15 +190,18 @@
   background:#CFCFCF;
   border:0;
 }
+#message::-webkit-input-placeholder{
+  color:#ffffff;
+}
 #submit{
-  position:absolute;
-  top:3125px;
-  left:840px;
+  position:relative;
+  top:419px;
+  left:845px;
 }
 #reset{
-  position:absolute;
-  top:3125px;
-  left:932px;
+  position:relative;
+  top:415px;
+  left:830px;
 }
 
 #services{
@@ -113,35 +211,35 @@
   background-size:100%;
   width:1530px;
   height:840px;
-  margin-left:-10px;
+  margin:0px auto;
 }
 #analysis{
-  position:absolute;
-  top:3550px;
-  left:440px;
+  position:relative;
+  top:225px;
+  left:445px;
 }
 #program{
-  position:absolute;
-  top:3560px;
-  left:689px;
+  position:relative;
+  top:225px;
+  left:515px;
 }
 #search{
-  position:absolute;
-  top:3560px;
-  left:946px;
+  position:relative;
+  top:223px;
+  left:594px;
 }
 #recommend{
-  position:absolute;
-  top:3827px;
-  left:440px;
+  position:relative;
+  top:490px;
+  left:-83px;
 }
 #record{
-  position:absolute;
-  top:3830px;
-  left:690px;
+  position:relative;
+  top:490px;
+  left:-10px;
 }
 #calculate{
-  position:absolute;
-  top:3830px;
-  left:941px;
+  position:relative;
+  top:490px;
+  left:65px;
 }
