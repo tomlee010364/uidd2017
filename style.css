@@ -121,12 +121,19 @@ body{
   transform:scale(1.1,1.1);
 }
 
+#bar{
+  position:fixed;
+  left:50%;
+  margin-left:-800px;
+  background-color:#ffffff;
+  z-index:1;
+}
 #home{
   background-image:url(home.jpg);
-  background-position:0px 0px;
+  background-position:0px 105px;
   background-repeat:no-repeat;
   background-size:100%;
-  width:1530px;
+  width:1519px;
   height:700px;
   margin:0px auto;
 }
@@ -137,22 +144,32 @@ body{
   transform:scale(1.4,1.4);
 }
 
+#ap{
+  position:relative;
+  top:-50px;
+  overflow:hidden;
+}
 #about{
   background-image:url(about.jpg);
   background-position:0px 0px;
   background-repeat:no-repeat;
   background-size:100%;
-  width:1530px;
+  width:1519px;
   height:840px;
   margin:0px auto;
 }
 
+#np{
+  position:relative;
+  top:-50px;
+  overflow:hidden;
+}
 #news{
   background-image:url(news.jpg);
   background-position:0px 0px;
   background-repeat:no-repeat;
   background-size:100%;
-  width:1530px;
+  width:1519px;
   height:840px;
   margin:0px auto;
 }
@@ -164,12 +181,17 @@ body{
   transform:scale(1.1,1.1);
 }
 
+#cp{
+  position:relative;
+  top:-10px;
+  overflow:hidden;
+}
 #contact{
   background-image:url(contact.jpg);
   background-position:0px 0px;
   background-repeat:no-repeat;
   background-size:100%;
-  width:1530px;
+  width:1519px;
   height:840px;
   margin:0px auto;
 }
@@ -282,12 +304,17 @@ body{
   box-shadow:0px 0px 30px rgba(20%,20%,40%,0.5);
 }
 
+#sp{
+  position:relative;
+  top:-25px;
+  overflow:hidden;
+}
 #services{
   background-image:url(services.jpg);
   background-position:0px 0px;
   background-repeat:no-repeat;
   background-size:100%;
-  width:1530px;
+  width:1519px;
   height:840px;
   margin:0px auto;
 }
