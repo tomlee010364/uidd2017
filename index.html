@@ -4,14 +4,24 @@
     <meta charset="utf-8">
     <title>FinTech Landing Page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="source.js"></script>
     <script type="text/javascript" src="app.js"></script>
   </head>
   <body>
+    <div id="loading">
+    <img id="icon1" src="1.jpg">
+    <img id="icon2" src="2.jpg">
+    <img id="icon3" src="3.jpg">
+    <img id="icon4" src="4.jpg">
+    <img id="icon5" src="5.jpg">
+    <img id="icon6" src="6.jpg">
+    <div id="lout"></div>
+    <div id="lin"></div>
+    </div>
     <table id="bar">
       <tr>
-        <td width=100px height=100px></td>
-        <td width=900px height=100px><img src="logo.jpg" height=50px></td>
+        <td width=140px height=69px></td>
+        <td width=900px height=69px><img src="logo.jpg" height=50px></td>
         <td width=120px><a href="#" id="toap"><img src="1111.jpg" height=50px class="big"></a></td>
         <td width=120px><a href="#" id="tosp"><img src="2222.jpg" height=50px class="big"></a></td>
         <td width=120px><a href="#" id="tonp"><img src="3333.jpg" height=50px class="big"></a></td>
@@ -59,5 +69,19 @@
     <a id="record"><img src="record.png" class="rot"></a>
     <a id="calculate"><img src="calculate.png" class="rot"></a>
     </div>
+
+   <script type="text/javascript">
+      $(document).ready(function(){
+          $('#loading').hide(500);
+          $('#lout').hide(300);
+          $('#lin').hide(300);
+          $('#icon1').hide(300);
+          $('#icon2').hide(300);
+          $('#icon3').hide(300);
+          $('#icon4').hide(300);
+          $('#icon5').hide(300);
+          $('#icon6').hide(300);
+      });
+    </script>
   </body>
 </html>
