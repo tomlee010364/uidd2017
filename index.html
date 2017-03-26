@@ -71,16 +71,16 @@
     </div>
 
    <script type="text/javascript">
-      $(document).ready(function(){
-          $('#loading').hide(500);
-          $('#lout').hide(300);
-          $('#lin').hide(300);
-          $('#icon1').hide(300);
-          $('#icon2').hide(300);
-          $('#icon3').hide(300);
-          $('#icon4').hide(300);
-          $('#icon5').hide(300);
-          $('#icon6').hide(300);
+      $(window).load(function(){
+          $('#loading').fadeOut("normal",$('#loading').hide(2500));
+          $('#lout').fadeOut("slow",$('#lout').hide(2500));
+          $('#lin').fadeOut("slow",$('#lin').hide(2500));
+          $('#icon1').hide(2000);
+          $('#icon2').hide(2000);
+          $('#icon3').hide(2000);
+          $('#icon4').hide(2000);
+          $('#icon5').hide(2000);
+          $('#icon6').hide(2000);
       });
     </script>
   </body>
